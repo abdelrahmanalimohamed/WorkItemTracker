@@ -42,7 +42,11 @@ namespace WorkItemTracker.API
 				app.UseSwaggerUI();
 			}
 
-            app.MapControllers();
+			app.UseCors(policy => policy.WithOrigins("http://localhost:4200")
+							.AllowAnyHeader()
+							.AllowAnyMethod()
+							.AllowCredentials());
+			app.MapControllers();
 
             app.Run();
         }
