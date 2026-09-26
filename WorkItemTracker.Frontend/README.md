@@ -68,5 +68,3 @@ The frontend expects:
 - `GET /api/work-items?Title=&Status=&Page=&PageSize=`
 - `GET /api/work-items/{id}`
 - `PATCH /api/work-items/{id}/status`
-
-The frontend assumes ASP.NET Core's default JSON naming (`camelCase`), for example `createdAt`, `totalCount`, and `totalPages`.
