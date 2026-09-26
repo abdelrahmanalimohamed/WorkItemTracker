@@ -44,7 +44,6 @@ The backend is an ASP.NET Core Web API responsible for work item management, val
 * **SQLite** for runtime persistence
 * **xUnit + EF Core InMemory** for automated tests
 * **Swagger/OpenAPI** in Development
-* Clean Architecture
 
 ## API Endpoints
 
