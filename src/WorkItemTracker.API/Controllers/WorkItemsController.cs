@@ -5,8 +5,8 @@ using WorkItemTracker.API.Services;
 
 namespace WorkItemTracker.API.Controllers
 {
-	[Route("api/[controller]")]
 	[ApiController]
+	[Route("api/work-items")]
 	public class WorkItemsController(IWorkItemService service) : ControllerBase
 	{
 		[HttpPost]
