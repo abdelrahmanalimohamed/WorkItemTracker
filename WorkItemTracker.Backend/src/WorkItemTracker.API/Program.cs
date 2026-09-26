@@ -47,6 +47,7 @@ namespace WorkItemTracker.API
 							.AllowAnyHeader()
 							.AllowAnyMethod()
 							.AllowCredentials());
+
 			app.MapControllers();
 
             app.Run();
