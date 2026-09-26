@@ -1,8 +1,8 @@
 ﻿namespace WorkItemTracker.API.Models.Base
 {
-	public abstract class BaseModel
+	public abstract class BaseEntity
 	{
-		public Guid Id { get; set; } = Guid.NewGuid();
+		public int Id { get; set; }
 		public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 	}
 }

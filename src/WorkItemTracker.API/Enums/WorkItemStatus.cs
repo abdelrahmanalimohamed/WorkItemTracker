@@ -2,8 +2,8 @@
 {
 	public enum WorkItemStatus
 	{
-		Todo,
-		InProgress,
-		Done
+		Todo = 1 ,
+		InProgress = 2,
+		Done = 3
 	}
 }
